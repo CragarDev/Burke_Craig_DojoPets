@@ -48,7 +48,7 @@ class Pet:
 
 class Dog(Pet):
     def __init__(self, data):
-        super().__init__()
+        super().__init__(self, data["pet_name"], data["pet_type"])
         self.breed = data["breed"]
         self.eye_color = data["eye_color"]
 

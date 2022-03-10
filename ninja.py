@@ -127,10 +127,10 @@ nagotoT_data = {
 }
 
 
-wolfy = Dog(nagotoT_data)
-print(wolfy.breed)
-wolfy.perform_trick("Roll Over")
-wolfy.eat()
+pepper = Dog(nagotoT_data)
+print(pepper.breed)
+pepper.perform_trick("Roll Over")
+pepper.eat()
 print("")
 nagotoT = Ninja(nagotoT_data)
 
